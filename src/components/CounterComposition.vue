@@ -8,11 +8,11 @@
 
 </template>
 
-<script lang="ts">
-import {defineComponent,Ref, ref} from "vue"
-export default defineComponent({
-name: 'CounterComposition',
-setup() {
+<script lang="ts" setup>
+import {Ref, ref} from "vue"
+
+
+
     let counter:Ref = ref(0);
     const addCounter = ():void => {
        
@@ -22,15 +22,13 @@ setup() {
     let subtractCounter = ():void => {
         if(counter.value > 0){
             counter.value--
-}
-        
+}   
     }
     let resetCounter = ():void => {
         counter.value = 0
     }
-    return {counter, addCounter, subtractCounter, resetCounter}
-}
-})
+    
+
 </script>
 
 <style>
