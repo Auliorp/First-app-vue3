@@ -5,30 +5,24 @@
         <button @click="subtractCounter">Decrementar</button>
         <button @click="resetCounter">Reiniciar</button>
     </div>
-
 </template>
 
 <script lang="ts" setup>
-import {Ref, ref} from "vue"
-
-
+    import {Ref, ref} from "vue"
 
     let counter:Ref = ref(0);
-    const addCounter = ():void => {
-       
+
+    let addCounter = ():void => {
         counter.value++
-       
     }
     let subtractCounter = ():void => {
         if(counter.value > 0){
             counter.value--
-}   
+        }   
     }
     let resetCounter = ():void => {
         counter.value = 0
     }
-    
-
 </script>
 
 <style>

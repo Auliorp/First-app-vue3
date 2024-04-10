@@ -1,10 +1,10 @@
 <template>
-  <h1> Contador:</h1>
-  <CounterComposition/>
+  <h1>mayor o menor de edad:</h1>
+  <ExampleSelective/>
 </template>
 
 <script lang="ts" setup>
-import CounterComposition from './components/CounterComposition.vue';
+import ExampleSelective from './components/ExampleSelective.vue';
 </script>
 
 <style>
