@@ -1,10 +1,10 @@
 <template>
   <h1>mayor o menor de edad:</h1>
-  <ExampleSelective/>
+  <ExampleFor/>
 </template>
 
 <script lang="ts" setup>
-import ExampleSelective from './components/ExampleSelective.vue';
+import ExampleFor from './components/ExampleFor.vue';
 </script>
 
 <style>
