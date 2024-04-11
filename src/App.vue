@@ -1,10 +1,10 @@
 <template>
   <!-- <h1>mayor o menor de edad:</h1> -->
-  <ClassBind/>
+  <ClassBindingStyle/>
 </template>
 
 <script lang="ts" setup>
-import ClassBind from './components/ClassBind.vue';
+import ClassBindingStyle from './components/ClassBindingStyle.vue';
 </script>
 
 <style>
