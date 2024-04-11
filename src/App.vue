@@ -1,10 +1,10 @@
 <template>
-  <h1>mayor o menor de edad:</h1>
-  <ExampleFor/>
+  <!-- <h1>mayor o menor de edad:</h1> -->
+  <ClassBind/>
 </template>
 
 <script lang="ts" setup>
-import ExampleFor from './components/ExampleFor.vue';
+import ClassBind from './components/ClassBind.vue';
 </script>
 
 <style>

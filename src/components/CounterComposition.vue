@@ -7,7 +7,9 @@
     </div>
 </template>
 
+//Composition API
 <script lang="ts" setup>
+
     import {Ref, ref} from "vue"
 
     let counter:Ref = ref(0);
