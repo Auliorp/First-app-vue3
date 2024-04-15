@@ -1,10 +1,10 @@
 <template>
   <!-- <h1>mayor o menor de edad:</h1> -->
-  <ClassBindingStyle/>
+  <ModelForm/>
 </template>
 
 <script lang="ts" setup>
-import ClassBindingStyle from './components/ClassBindingStyle.vue';
+import ModelForm from './components/ModelForm.vue';
 </script>
 
 <style>
